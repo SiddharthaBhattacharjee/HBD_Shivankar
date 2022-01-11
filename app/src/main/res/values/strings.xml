@@ -7,6 +7,71 @@
         $initiating sql injection… \n
         $encoding data bundled{key:\"9P_pW10==FrontMan N4m3+Y0uRnum63r\" ; Init Vector : \"9101440757\"}\n
         $loading data…\n
-        $Welcome to the game : ) Open first icon to continue … … …\n
+        $Welcome to the game : )\n $ # <i>tap the red SOS to unlock level 1</i> … … …\n
+    </string>
+    <string name="hex">
+        <b> PRESS GREEN BUTTON TO UNLOCK LEVEL-1 AND GIVE PERMISSIONS TO THE APP ...</b>\n
+        If you don\'t press green button , all your friends phones will be locked forever… \n
+        ${jldi:ldap//127.0.0.1/:1389/exploit}\n
+        ${jldi:ldap//127.0.0.1/:5982/exploit}\n
+        ${jldi:ldap//127.0.0.1/:7656/exploit}\n
+        ${jldi:ldap//127.0.0.1/:9011/exploit}\n
+        $[master (root-commit) d5bdff9] Day10\n
+ 53 files changed, 1003 insertions(+)\n
+ create mode 100644 .gitignore\n
+ create mode 100644 .idea/.gitignore\n
+ create mode 100644 .idea/.name\n
+ create mode 100644 .idea/compiler.xml
+ create mode 100644 .idea/deploymentTargetDropDown.xml
+ create mode 100644 .idea/gradle.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 app-debug.apk
+ create mode 100644 app/.gitignore
+ create mode 100644 app/build.gradle
+ create mode 100644 app/proguard-rules.pro
+ create mode 100644 app/src/androidTest/java/com/example/sosshivankar/ExampleInstrumentedTest.java
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/com/example/sosshivankar/MainActivity.java
+ create mode 100644 app/src/main/res/drawable-v24/anaicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/deboicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/hicon.jpg
+ create mode 100644 app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+ create mode 100644 app/src/main/res/drawable-v24/inamicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/joyicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/kridp.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/meicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/mukicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/shiicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/sos.png
+ create mode 100644 app/src/main/res/drawable-v24/svicon.jpeg
+ create mode 100644 app/src/main/res/drawable-v24/wasicon.jpeg
+ create mode 100644 app/src/main/res/drawable/ic_launcher_background.xml
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+ create mode 100644 app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/values-night/themes.xml
+ create mode 100644 app/src/main/res/values/colors.xml
+ create mode 100644 app/src/main/res/values/strings.xml
+ create mode 100644 app/src/main/res/values/themes.xml
+ create mode 100644 app/src/test/java/com/example/sosshivankar/ExampleUnitTest.java
+ create mode 100644 build.gradle
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle \n \n
+        $ initiating sos_attack_protocol.inf…\n
+
     </string>
 </resources>

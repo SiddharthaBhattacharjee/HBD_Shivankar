@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="389dp"
-        android:layout_height="690dp"
+        android:layout_width="323dp"
+        android:layout_height="643dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:onClick="page2"
             app:srcCompat="@drawable/hicon" />
 
         <ImageView
@@ -30,6 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:onClick="page2"
             app:srcCompat="@drawable/sos" />
 
         <ScrollView
@@ -39,7 +41,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView"
@@ -60,6 +62,7 @@
                         android:layout_height="75dp"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel1"
                         android:src="@drawable/svicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
@@ -71,9 +74,35 @@
                         android:layout_gravity="right"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel2"
                         android:src="@drawable/shiicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Bhayankar"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="     Chipkali"
+                        android:textColor="@color/white" />
                 </TableRow>
 
                 <TableRow
@@ -88,6 +117,7 @@
                         android:layout_height="75dp"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel3"
                         android:src="@drawable/inamicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
@@ -99,9 +129,34 @@
                         android:layout_gravity="right"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel4"
                         android:src="@drawable/mukicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Khanu     "
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="     Mukku"
+                        android:textColor="@color/white" />
                 </TableRow>
 
                 <TableRow
@@ -116,6 +171,7 @@
                         android:layout_height="75dp"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel5"
                         android:src="@drawable/wasicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
@@ -127,9 +183,34 @@
                         android:layout_gravity="right"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel6"
                         android:src="@drawable/joyicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Mamu       "
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="      Joy"
+                        android:textColor="@color/white" />
                 </TableRow>
 
                 <TableRow
@@ -144,6 +225,7 @@
                         android:layout_height="75dp"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel7"
                         android:src="@drawable/deboicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
@@ -155,9 +237,33 @@
                         android:layout_gravity="right"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel8"
                         android:src="@drawable/anaicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="40dp"
+                        android:text="ye abhibhi zinda hai?"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Ana"
+                        android:textColor="@color/white" />
                 </TableRow>
 
                 <TableRow
@@ -172,6 +278,7 @@
                         android:layout_height="75dp"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="Llevel9"
                         android:src="@drawable/kridp"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
@@ -183,9 +290,34 @@
                         android:layout_gravity="right"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
+                        android:onClick="LlevelA"
                         android:src="@drawable/meicon"
                         app:civ_border_color="#FF000000"
                         app:civ_border_width="2dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Premchand"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Motabhai ?"
+                        android:textColor="@color/white" />
                 </TableRow>
 
             </LinearLayout>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SOSShivankar">
         <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:label="Level-2 Ch1pk4l1"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="Level-1 6h4y4nk4^"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="SOS Page2 4110wM3701nF3c7"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
