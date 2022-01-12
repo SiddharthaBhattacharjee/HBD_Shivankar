@@ -37,8 +37,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Intro page content here"
+                android:text="HELLO SHIVAKAR! WELCOME TO SOS"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cleared1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_secondary_variant" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ins1"
                 android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/warn1"
+                android:textColor="@color/design_default_color_error" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="$Task::// TO UNLOCK LEVEL-2 , YOU MUST DEFEAT ME IN ROCK PAPER SCISSOR.… \n $ You have to score 3 points to win \n $ +1 point for each win , 0 for tie, and -1 point for each loose \n $ BEST OF LUCK… HA HA HA HA HA!"
+                android:textColor="@color/design_default_color_primary_dark" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -142,7 +172,7 @@
                 android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/score"
+                android:id="@+id/score_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"

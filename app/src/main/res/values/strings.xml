@@ -74,4 +74,37 @@
         $ initiating sos_attack_protocol.inf…\n
 
     </string>
+    <string name="ins1">You must have many questions… And you might be lost on what to do… Let me tell you about what this app is about and what is your objective…\n
+        Are you wondering who I am? You might know who I am and you might know wrong… I am not your friend, I am your 6^07#3^,\n My name by which you know me is [ERROR 420! Name Encrypted]\n
+        Why this app you ask? HA HA HA ! You know why, don\'t you? Your Friends love you soo much, and so I thought why not take a test of how much you love them back… HA HA HA HA HA\n
+        All your friends phones are infected by the same ransomware which is infecting your phone now!\n
+        What is a Ransomware you ask? It is a malware that will lock your phone forever and all your phone\'s data will be lost… Unless… You can finish the game and save your and all your friend\'s phones.\n \n
+        <i>The Rules of the game are simple :</i> \n
+        1) <b>You have to complete tasks to unlock levels…</b>\n
+        2) <b>Each level is assigned to one of your friends</b>, those whose level you unlock, the ransomware from their phone will be removed and their phone will be safe…\n
+        3) Those friends whose level you can\'t unlock in time… HA HA HA HA HA… Their phone is gone for ever…\n
+        4) By unlocking this level, you just removed the ransomware from your own phone for now, but if you fail to unlock all your friends levels, your friends have the option to lock your phone as a retaliation…\n
+        5) <b>Each level contains a message for you, from the friend whose level it is… You have to unlock all level to read each of their messages…</b>\n
+        6) <b>There is a secret gift for you hiding somewhere in the app, but to get to it, you will have to clear all the levels first…</b>\n
+        7) You may get 3 hints from your friends, but each hint will cost you something : ) \n
+    </string>
+    <string name="warn1">
+        WARNING! YOU CAN MINIMISE THE APP, BUT YOU CAN <b>NOT</b> CLOSE THE APP, CLOSING THE APP WILL MAKE YOU RESTART THE CHALLENGE!\n
+    </string>
+    <string name="ins2_1">
+        Congratulations on clearing your first challenge, did you find it easy?\n
+        Don\'t Worry, the challenges will get harder as you go… \n
+        As said in the level-1 each level belongs to one of your friends…\n
+        This is Shainara\'s Level, Here is a message for you from shainara…
+    </string>
+    <string name="ins2_2">
+        Are you done reading the message?\n
+        Don\'t be too happy yet, it is just the 2nd level\n
+        Get Ready for your next challenge…\n
+    </string>
+    <string name="ins3_1">
+        Congratulations, you have reached level 3, did you solve the 2nd puzzle with ease?\n
+        Don\'t think it will be this easy all the time… \n
+        This is Inam\'s Level, Here is a message from Inam…
+    </string>
 </resources>

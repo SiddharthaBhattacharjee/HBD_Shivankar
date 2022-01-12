@@ -11,6 +11,9 @@ public class MainActivity extends AppCompatActivity {
     public static boolean access = true;
     public static boolean lvl1 = false;
     public static boolean lvl2 = false;
+    public static boolean lvl3 = false;
+    public static boolean lvl4 = false;
+    public static boolean lvl3tried = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +48,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void Llevel3(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        if(lvl3){
+            Intent i = new Intent(this,MainActivity5.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-3 Locked", Toast.LENGTH_SHORT).show();
+        }
     }
     public void Llevel4(View view){
         Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();

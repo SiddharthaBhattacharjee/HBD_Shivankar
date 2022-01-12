@@ -17,14 +17,19 @@ public class MainActivity3 extends AppCompatActivity {
     TextView cout;
     TextView sc;
     TextView st;
+    TextView comp1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         pout = findViewById(R.id.plaout);
         cout = findViewById(R.id.botout);
-        sc = findViewById(R.id.score);
+        sc = findViewById(R.id.score_2);
         st = findViewById(R.id.statement);
+        comp1 = findViewById(R.id.cleared1);
+        if(MainActivity.lvl2){
+            comp1.setText("$ YOU ALREADY CLEARED THIS LEVEL (LEVEL-1)!");
+        }
     }
     public int rps(int p){
         String[] vals = {"error!","Rock","Paper","Scissor"};

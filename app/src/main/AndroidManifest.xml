@@ -10,14 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SOSShivankar">
         <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:label="Level-3 K#4nU"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity4"
             android:exported="false"
-            android:label="Level-2 Ch1pk4l1"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Level-2 (#1pk4l1"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity3"
             android:exported="false"
-            android:label="Level-1 6h4y4nk4^"
+            android:label="Level-1 6#4y4nk4^"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity2"
