@@ -89,7 +89,7 @@
         7) You may get 3 hints from your friends, but each hint will cost you something : ) \n
     </string>
     <string name="warn1">
-        WARNING! YOU CAN MINIMISE THE APP, BUT YOU CAN <b>NOT</b> CLOSE THE APP, CLOSING THE APP WILL MAKE YOU RESTART THE CHALLENGE!\n
+        WARNING! YOU CAN MINIMISE AND CLOSE THE APP, BUT YOU CAN <b>NOT</b> UNINSTALL THE APP, UNINSTALLING THE APP WILL MAKE YOU RESTART THE CHALLENGE AND YOUR FRIENDS PHONES WILL BE LOCKED TILL YOU REINSTALL!\n
     </string>
     <string name="ins2_1">
         Congratulations on clearing your first challenge, did you find it easy?\n

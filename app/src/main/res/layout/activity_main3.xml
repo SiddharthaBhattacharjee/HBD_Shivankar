@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="$Task::// TO UNLOCK LEVEL-2 , YOU MUST DEFEAT ME IN ROCK PAPER SCISSOR.… \n $ You have to score 3 points to win \n $ +1 point for each win , 0 for tie, and -1 point for each loose \n $ BEST OF LUCK… HA HA HA HA HA!"
-                android:textColor="@color/design_default_color_primary_dark" />
+                android:textColor="@android:color/holo_orange_light" />
 
             <ImageView
                 android:id="@+id/imageView"

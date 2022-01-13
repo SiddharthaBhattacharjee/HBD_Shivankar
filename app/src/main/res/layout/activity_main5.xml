@@ -59,7 +59,7 @@
                 android:layout_marginTop="10dp"
                 android:text="$ Task:://level-3/load_challenge \n $ Loading challenge 3... \n $ For your 3rd challenge you will have to Defeat me in Hand Cricket... \n $ I will bat first i.e. You will ball first...\n
 $ BEST OF LUCK :) HAHAHAHAHAHA..."
-                android:textColor="@color/design_default_color_primary_dark" />
+                android:textColor="@android:color/holo_orange_light" />
 
             <TextView
                 android:id="@+id/targetC"

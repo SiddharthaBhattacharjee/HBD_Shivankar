@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SOSShivankar">
         <activity
+            android:name=".MainActivity6"
+            android:exported="false"
+            android:label="Level-4 Muk74"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity5"
             android:exported="false"
             android:label="Level-3 K#4nU"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity4"
             android:exported="false"

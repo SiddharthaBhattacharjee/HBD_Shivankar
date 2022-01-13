@@ -2,7 +2,9 @@ package com.example.sosshivankar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,7 +29,9 @@ public class MainActivity3 extends AppCompatActivity {
         sc = findViewById(R.id.score_2);
         st = findViewById(R.id.statement);
         comp1 = findViewById(R.id.cleared1);
-        if(MainActivity.lvl2){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        SharedPreferences.Editor ed = sp.edit();
+        if(sp.getBoolean("lvl2",false)){
             comp1.setText("$ YOU ALREADY CLEARED THIS LEVEL (LEVEL-1)!");
         }
     }
@@ -72,7 +76,10 @@ public class MainActivity3 extends AppCompatActivity {
         }
         sc.setText(String.valueOf(score));
         if(score>=3){
-            MainActivity.lvl2 = true;
+            SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+            SharedPreferences.Editor ed = sp.edit();
+            ed.putBoolean("lvl2",true);
+            ed.apply();
             Toast.makeText(this, "YOU WON ! Level-2 Unlocked", Toast.LENGTH_SHORT).show();
             finish();
         }
@@ -94,7 +101,10 @@ public class MainActivity3 extends AppCompatActivity {
         }
         sc.setText(String.valueOf(score));
         if(score>=3){
-            MainActivity.lvl2 = true;
+            SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+            SharedPreferences.Editor ed = sp.edit();
+            ed.putBoolean("lvl2",true);
+            ed.apply();
             Toast.makeText(this, "YOU WON ! Level-2 Unlocked", Toast.LENGTH_SHORT).show();
             finish();
         }
@@ -116,7 +126,10 @@ public class MainActivity3 extends AppCompatActivity {
         }
         sc.setText(String.valueOf(score));
         if(score>=3){
-            MainActivity.lvl2 = true;
+            SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+            SharedPreferences.Editor ed = sp.edit();
+            ed.putBoolean("lvl2",true);
+            ed.apply();
             Toast.makeText(this, "YOU WON ! Level-2 Unlocked", Toast.LENGTH_SHORT).show();
             finish();
         }

@@ -2,7 +2,9 @@ package com.example.sosshivankar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,16 +32,21 @@ public class MainActivity5 extends AppCompatActivity {
         statusC = findViewById(R.id.statementC);
         piV = findViewById(R.id.plaoutC);
         ciV = findViewById(R.id.botoutC);
-        if(MainActivity.lvl4){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        SharedPreferences.Editor ed = sp.edit();
+        if(sp.getBoolean("lvl4",false)){
             complete3.setText("$ You have already completed this level! (level-3)");
         }
-        else if(MainActivity.lvl3tried){
+        else if(sp.getBoolean("lvl3tried",false)){
             complete3.setText("$ TRY AGAIN! You failed your last try...");
         }
     }
     public void play(int pi){
         int ci = random.nextInt(6)+1;
-        MainActivity.lvl3tried = true;
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        SharedPreferences.Editor ed = sp.edit();
+        ed.putBoolean("lvl3tried",true);
+        ed.apply();
         if(batting){
             if(pi==ci){
                 Toast.makeText(this, "You Lost ! TRY AGAIN !", Toast.LENGTH_SHORT).show();
@@ -60,14 +67,15 @@ public class MainActivity5 extends AppCompatActivity {
             }
         }
         if(rns>=targ && rns!=0){
-            MainActivity.lvl4 = true;
+            ed.putBoolean("lvl4",true);
+            ed.apply();
             Toast.makeText(this, "You Won! You have unlocked level-4", Toast.LENGTH_SHORT).show();
             finish();
         }
         piV.setText(String.valueOf(pi));
         ciV.setText(String.valueOf(ci));
-        targetv.setText(String.valueOf(targ));
-        runsv.setText(String.valueOf(rns));
+        targetv.setText("TARGET : "+targ);
+        runsv.setText("RUNS : "+rns);
     }
     public void Eone(View view){
         play(1);

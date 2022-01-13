@@ -3,24 +3,28 @@ package com.example.sosshivankar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static boolean access = true;
-    public static boolean lvl1 = false;
-    public static boolean lvl2 = false;
-    public static boolean lvl3 = false;
-    public static boolean lvl4 = false;
-    public static boolean lvl3tried = false;
+//    public static boolean access = true;
+//    public static boolean lvl1 = false;
+//    public static boolean lvl2 = false;
+//    public static boolean lvl3 = false;
+//    public static boolean lvl4 = false;
+//    public static boolean lvl3tried = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
     public void page2(View view){
-        if(access){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("access",true)){
             Intent i = new Intent(this,MainActivity2.class);
             startActivity(i);
         }
@@ -30,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void Llevel1(View view){
-        if(lvl1){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl1",false)){
             Intent i = new Intent(this,MainActivity3.class);
             startActivity(i);
         }
@@ -39,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void Llevel2(View view){
-        if(lvl2){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl2",false)){
             Intent i = new Intent(this,MainActivity4.class);
             startActivity(i);
         }
@@ -48,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void Llevel3(View view){
-        if(lvl3){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl3",false)){
             Intent i = new Intent(this,MainActivity5.class);
             startActivity(i);
         }
@@ -57,7 +64,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void Llevel4(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl4",false)){
+            Intent i = new Intent(this,MainActivity6.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-4 Locked", Toast.LENGTH_SHORT).show();
+        }
+
     }
     public void Llevel5(View view){
         Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
