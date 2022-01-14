@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
+    tools:context=".MainActivity9">
+
+    <ScrollView
+        android:layout_width="324dp"
+        android:layout_height="619dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/head7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="WELCOME TO LEVEL 7"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/cleared7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_secondary_variant" />
+
+        <TextView
+            android:id="@+id/tv7_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ins7_1"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView7_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_dialog_alert" />
+
+        <ImageView
+            android:id="@+id/imageView7_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_dialog_alert" />
+        <TextView
+            android:id="@+id/textView7_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ins7_2"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <TextView
+            android:id="@+id/turnsLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="TURNS LEFT : 5"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hicon" />
+
+        <TextView
+            android:id="@+id/statement9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Guess a number between 1-100 in the box below"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ans7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:ems="10"
+            android:hint="your answer here"
+            android:inputType="number"
+            android:minHeight="48dp"/>
+
+
+        <Button
+            android:id="@+id/button7_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getinp7"
+            android:text="Submit" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

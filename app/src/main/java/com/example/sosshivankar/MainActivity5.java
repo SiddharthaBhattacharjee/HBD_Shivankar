@@ -3,6 +3,7 @@ package com.example.sosshivankar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
@@ -36,9 +37,11 @@ public class MainActivity5 extends AppCompatActivity {
         SharedPreferences.Editor ed = sp.edit();
         if(sp.getBoolean("lvl4",false)){
             complete3.setText("$ You have already completed this level! (level-3)");
+            complete3.setTextColor(Color.parseColor("#018786"));
         }
         else if(sp.getBoolean("lvl3tried",false)){
             complete3.setText("$ TRY AGAIN! You failed your last try...");
+            complete3.setTextColor(Color.parseColor("#B00020"));
         }
     }
     public void play(int pi){

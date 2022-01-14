@@ -107,4 +107,31 @@
         Don\'t think it will be this easy all the time… \n
         This is Inam\'s Level, Here is a message from Inam…
     </string>
+    <string name="ins4_1">
+        Congratulations, you have unlocked level 4, did the last game brought back some old memories?\n
+        I know you used to be good at handcricket in your school days : ) \n
+        But don\'t let your guard down yet, the challenges will get harder as you go… \n
+        This is Mukta\'s Level, Here is a message from Mukta…
+    </string>
+    <string name="riddle2">
+        $ Task:://level-4/load_challenge \n $ Loading challenge 4… \n$ For your 4th challenge you will have to Solve a riddle... \n$ Lets see how smart you are...\n$ The answer is single word with only small letters(lower case) , no spaces, special characters or capital letters. \n$ BEST OF LUCK :) HAHAHAHAHAHA...\n [i]<i>The Riddle is : </i>[::i] \n [b]<b>If you drop me I\'m sure to crack, but give me a smile and I\'ll always smile back. What am I?</b>[::b]
+    </string>
+    <string name="ins5_1">
+        Congratulations Shivankar, You have unlocked half of the levels… \nYou are not doing bad so far, Are you enjoying the challenges : ) \nLast round, I challenged your intelegence, the next two rounds will be challenging your emory… \nLets see how good of a memory you possess… \n But before that, this is Wasim\'s level and hence, here is a message from Wasim…
+    </string>
+    <string name="riddle3">
+        $ Task:://level-5/load_challenge \n $ Loading challenge 5… \n$ For your 5th challenge you will have to Answer a Question based on the image you are provided below \n$ Lets see good memory you have of your school days...\n$ The answer is single word with only small letters(lower case) , no spaces, special characters or capital letters. \n$ BEST OF LUCK :) ...\n [b]<b>What was the Subject Taught by the teacher in the following image?</b>[::b]\n[i]<i>Image refered in the question is the following one below ::</i>[::i]
+    </string>
+    <string name="ins6_1">
+        Well done, You have completed half of the challenges… \nExpect things to get harder from here : ) This time for real… \n As I told you last round, there will be two rounds to test your memory, so, this level will be your 2nd memory challenge… so get ready…\n Before we jump into the challenge, This is Joysri\'s Level, so here is a message from Joysri…
+    </string>
+    <string name="riddle4">
+        $ Task:://level-6/load_challenge \n $ Loading challenge 6… \n$ The 6th challenge will not only test your memory, It will also test how much do you know about your dearest friends : )\n$ Lets see good memory and friendship you have...\n [i]<i>YOUR CHALLENGE IS :: </i>[::i]\n [b]<b>Write the name of all the members of PFN in the order of their birthday(1st Jan-31st Dec)</b>[::b] \n $ Don\'t take age or year of birth into consideration, the question asks who\'s birthday comes first,second...last in any given year \n$ Write all the names in lower case(small letters) only (no special characters allowed except coma) and use coma \',\' to spearate the names \n$ For Example : name1,name2,name3... \n$ Names Spellings should match the following : anamika,debo,inam,joysri,krishna,mukta,shainara,shivankar,siddhartha,wasim \n$ Don\'t screw it up after so much explaination : ) GOOD LUCK...
+    </string>
+    <string name="ins7_1">
+        Excelent Work so far, you remember all your friends birthdays, that\'s a great sign that how pure your friendship is… \nDid you find the last challenge hard? :) \nWell that was nothing in comparison to what\'s coming in the remaining challenges, So get ready… \nI have tested you many times already, lates take a break from the testing and play some games shall we :) \n but first, this is Debo\'s level, so , here is a message from debo…
+    </string>
+    <string name="ins7_2">
+        $ Task:://level-6/load_challenge \n $ Loading challenge 6… \n$ For this round we you will be playing guess the number… \n$ I will generate a random number and you will have to guess that random number within 5 turns… \n$ Each time you make a guess, I will tell you if your guessed number is greater than or less than the required number, based on that information you can make your next guess \n$ For eg: you chose 50 , And I say 50 is less than the required number , you can now make your next guess from numbers above 50 \n$ All the numbers will be between [1-100](1 and 100 included) \n$ BEST OF LUCK :)…
+    </string>
 </resources>

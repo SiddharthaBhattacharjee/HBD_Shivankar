@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="$ Task:://level-2/load_challenge \n $ Loading challenge 2... \n $ For your 2nd challenge you will have to Rearrange the words to make a meaningful and desired sentence... \n No Special character allowed , all should be small letters (lower case letters) and use \'_\' instead of space (only in this task) \nYour words are : \n \n weapon , a , the , not , bat , its , toy , is , a"
+                android:text="$ Task:://level-2/load_challenge \n$ Loading challenge 2... \n$ For your 2nd challenge you will have to Rearrange the words to make a meaningful and desired sentence... \n$No Special character allowed , all should be small letters (lower case letters) and use \'_\' instead of space (only in this task) \nYour words are : \n \n weapon , a , the , not , bat , its , toy , is , a"
                 android:textColor="@android:color/holo_orange_light" />
 
             <EditText

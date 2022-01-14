@@ -75,16 +75,44 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void Llevel5(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl5",false)){
+            Intent i = new Intent(this,MainActivity7.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-5 Locked", Toast.LENGTH_SHORT).show();
+        }
     }
     public void Llevel6(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl6",false)){
+            Intent i = new Intent(this,MainActivity8.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-6 Locked", Toast.LENGTH_SHORT).show();
+        }
     }
     public void Llevel7(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl7",false)){
+            Intent i = new Intent(this,MainActivity9.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-7 Locked", Toast.LENGTH_SHORT).show();
+        }
     }
     public void Llevel8(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl8",false)){
+            Intent i = new Intent(this,MainActivity10.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-8 Locked", Toast.LENGTH_SHORT).show();
+        }
     }
     public void Llevel9(View view){
         Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();

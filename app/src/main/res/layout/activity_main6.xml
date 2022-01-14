@@ -5,4 +5,78 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:drawable/screen_background_dark"
-    tools:context=".MainActivity6"/>
+    tools:context=".MainActivity6">
+    <ScrollView
+        android:layout_width="324dp"
+        android:layout_height="619dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/head4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="WELCOME TO LEVEL 4"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/cleared4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_secondary_variant" />
+        <TextView
+            android:id="@+id/tv4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ins4_1"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="476dp"
+            app:srcCompat="@drawable/muktawisha" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="367dp"
+            app:srcCompat="@drawable/muktawishb" />
+
+        <TextView
+            android:id="@+id/textView4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/riddle2"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <EditText
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:ems="10"
+            android:hint="Your answer here"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="check2"
+            android:text="Submit" />
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
