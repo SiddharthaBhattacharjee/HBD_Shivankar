@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
+    tools:context=".MainActivity11">
+
+    <ScrollView
+        android:layout_width="338dp"
+        android:layout_height="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/head9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="WELCOME TO LEVEL 9"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cleared9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_secondary_variant" />
+
+            <TextView
+                android:id="@+id/tv9_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ins9_1"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView9_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_dialog_alert" />
+
+            <ImageView
+                android:id="@+id/imageView9_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_dialog_alert" />
+
+            <TextView
+                android:id="@+id/textView9_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ins9_2"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <EditText
+                android:id="@+id/ans_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/screen_background_light_transparent"
+                android:ems="10"
+                android:hint="put your answer here"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/submit9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="300dp"
+                android:text="SUBMIT" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

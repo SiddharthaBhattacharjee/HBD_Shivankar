@@ -43,14 +43,14 @@
         <ImageView
             android:id="@+id/imageView6_10"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_dialog_alert" />
+            android:layout_height="467dp"
+            app:srcCompat="@drawable/joywisha" />
 
         <ImageView
             android:id="@+id/imageView6_12"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_dialog_alert" />
+            android:layout_height="606dp"
+            app:srcCompat="@drawable/joywishb" />
         <TextView
             android:id="@+id/textView6_3"
             android:layout_width="match_parent"
@@ -73,6 +73,7 @@
             android:id="@+id/button6_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="300dp"
             android:onClick="check6"
             android:text="Submit" />
 

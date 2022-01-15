@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SOSShivankar">
         <activity
+            android:name=".MainActivity11"
+            android:exported="false"
+            android:label="Level-9 K^1$#n4"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity10"
             android:exported="false"
             android:label="Level-8 4n4"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity9"
             android:exported="false"

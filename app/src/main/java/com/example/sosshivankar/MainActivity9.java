@@ -32,7 +32,7 @@ public class MainActivity9 extends AppCompatActivity {
         SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
         SharedPreferences.Editor ed = sp.edit();
         if(sp.getBoolean("lvl8",false)){
-            cleared7.setText("$ You have already cleared this level! (level-6)");
+            cleared7.setText("$ You have already cleared this level! (level-7)");
             cleared7.setTextColor(Color.parseColor("#018786"));
         }
         else if(sp.getBoolean("lvl7tried",false)){

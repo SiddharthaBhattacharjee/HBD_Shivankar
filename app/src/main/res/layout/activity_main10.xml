@@ -7,13 +7,236 @@
     android:background="@android:drawable/screen_background_dark"
     tools:context=".MainActivity10">
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="240dp"
-        android:layout_height="259dp"
+    <ScrollView
+        android:layout_width="324dp"
+        android:layout_height="619dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/head8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO LEVEL 8"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/cleared8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_secondary_variant" />
+
+    <TextView
+        android:id="@+id/tv8_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ins8_1"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView8_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_dialog_alert" />
+
+    <ImageView
+        android:id="@+id/imageView8_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_alert" />
+    <TextView
+        android:id="@+id/textView8_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/ins8_2"
+        android:textColor="@android:color/holo_orange_light" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/hicon" />
+
+        <TextView
+            android:id="@+id/botchoiceHW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Front Man's Choice"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/status8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="YOUR ATTACK : 1"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/playerchoiceHW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Your choice"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/playdp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/svicon"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/attack1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="attack1"
+                android:src="@drawable/one"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/attack2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:onClick="attack2"
+                android:src="@drawable/two"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/attack3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="attack3"
+                android:src="@drawable/three"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Attack Options"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pinup1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:onClick="pinup1"
+                android:src="@drawable/one"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pinup2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:onClick="pinup2"
+                android:src="@drawable/two"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Pin Up Options"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/finish4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:onClick="finishmove1"
+                android:src="@drawable/four"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/finish6"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:onClick="finishmove2"
+                android:src="@drawable/six"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Finishing Move Options"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

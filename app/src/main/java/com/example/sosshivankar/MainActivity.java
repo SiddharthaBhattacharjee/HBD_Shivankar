@@ -115,7 +115,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void Llevel9(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl9",false)){
+            Intent i = new Intent(this,MainActivity11.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-9 Locked", Toast.LENGTH_SHORT).show();
+        }
     }
     public void LlevelA(View view){
         Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();

@@ -90,6 +90,7 @@
                 android:id="@+id/submit1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="300dp"
                 android:onClick="check1"
                 android:text="SUBMIT" />
         </LinearLayout>

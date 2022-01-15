@@ -103,6 +103,7 @@
             android:id="@+id/button7_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="300dp"
             android:onClick="getinp7"
             android:text="Submit" />
 
