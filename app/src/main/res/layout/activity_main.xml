@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:onClick="page2"
+            android:onClick="LlevelSecret"
             app:srcCompat="@drawable/hicon" />
 
         <ImageView
@@ -87,7 +87,7 @@
                     android:gravity="center_horizontal">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/textView2main1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -96,7 +96,7 @@
                         android:textColor="@color/white" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/textView3main"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -141,7 +141,7 @@
                     android:gravity="center_horizontal">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/textView2main"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -150,7 +150,7 @@
                         android:textColor="@color/white" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/textView3main1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -195,16 +195,16 @@
                     android:gravity="center_horizontal">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/textView2main2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="30dp"
+                        android:layout_marginLeft="25dp"
                         android:layout_marginRight="30dp"
                         android:text="Mamu       "
                         android:textColor="@color/white" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/textView3main2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -249,20 +249,20 @@
                     android:gravity="center_horizontal">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/textView2main3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="40dp"
-                        android:text="ye abhibhi zinda hai?"
+                        android:layout_marginRight="20dp"
+                        android:text="Debo"
                         android:textColor="@color/white" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/textView3main3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="30dp"
-                        android:text="Ana"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="                 Ana"
                         android:textColor="@color/white" />
                 </TableRow>
 

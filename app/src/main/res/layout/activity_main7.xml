@@ -43,14 +43,14 @@
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_dialog_alert" />
+            android:layout_height="360dp"
+            app:srcCompat="@drawable/wasimwishb" />
 
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_dialog_alert" />
+            android:layout_height="374dp"
+            app:srcCompat="@drawable/wasimwisha" />
 
         <TextView
             android:id="@+id/textView5_3"

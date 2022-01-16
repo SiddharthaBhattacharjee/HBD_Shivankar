@@ -40,27 +40,39 @@
                 android:id="@+id/tv9_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ins9_1"
+                android:text="@string/ins9_1"
                 android:textColor="@color/white" />
 
             <ImageView
-                android:id="@+id/imageView9_3"
+                android:id="@+id/imageView15"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/ic_dialog_alert" />
+                android:layout_height="189dp"
+                app:srcCompat="@drawable/krishwisha" />
 
             <ImageView
-                android:id="@+id/imageView9_4"
+                android:id="@+id/imageView16"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/ic_dialog_alert" />
+                android:layout_height="429dp"
+                app:srcCompat="@drawable/krishwishb" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="487dp"
+                app:srcCompat="@drawable/krishwishc" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="504dp"
+                app:srcCompat="@drawable/krishwishd" />
 
             <TextView
                 android:id="@+id/textView9_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="ins9_2"
+                android:text="@string/ins9_2"
                 android:textColor="@android:color/holo_orange_light" />
 
             <EditText
@@ -69,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:drawable/screen_background_light_transparent"
                 android:ems="10"
-                android:hint="put your answer here"
+                android:hint="Enter PassWord to level 10 here"
                 android:inputType="textPersonName"
                 android:minHeight="48dp" />
 
@@ -78,6 +90,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="300dp"
+                android:onClick="check9"
                 android:text="SUBMIT" />
         </LinearLayout>
     </ScrollView>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
+    tools:context=".MainActivity12">
+
+    <ScrollView
+        android:layout_width="338dp"
+        android:layout_height="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/head10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO THE LAST LEVEL"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cleared10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_secondary_variant" />
+
+        <TextView
+        android:id="@+id/tv10_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ins10_1"
+        android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fra" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AUR BHAI..."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/frc" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KESI LAGI...?"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/frb" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AAGAYA SWAADH...? XD"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/animated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="HAPPY BIRTHDAY SHIVANKAR BHAI :D"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/retrohbd" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/sida" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Yaad hai wooo time jab ham log rozz ek sath baithte the :D kitnse saal biit gaye na uss time se... abhi toh wo ek dashak purani baat hai ... Kabhi pata hi nai chala, dekhte dekhte apni yari itni purani kab ho gayi :D"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            app:srcCompat="@drawable/side" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kitna Maja Kia hai ham sab ne ite salo mai ek sath hai na... Aur tere bina toh ham sabka maza adhura hai bhai : ) Tu hi toh hai hamare dal ka sabse bara kandi... Ek se barkar ek kand karta rehta hai XD"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="284dp"
+            app:srcCompat="@drawable/sidh" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Yaad  hai ham kitna maja karte the ek sath tution mai, cahe woh tution Surojit sir ka ho ya Afzal sir ka, Time ke sath sath tution change hua, but masti wahi same : ) Aur harami sale yaad hai gari mai kya kand karta tha tu, Bichare Wasim aur Inam ko toh tere sath auto mai bhi baithna parta tha ;-;"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="685dp"
+            app:srcCompat="@drawable/sidg" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cycle chor spotted  XD ... Bhai yaha cycle jo chura raha tha, calana aata tha kya uss time? Abhi toh Sikh gaya chalana : ) But sikhke bhi cycling karte wakt kam kand nai kia tune :D Waise kitna maja aata tha na jab cycling pe jate the ek sath, kabhi cricket, kabhi badinton khelte the : )"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="match_parent"
+            android:layout_height="376dp"
+            app:srcCompat="@drawable/sidd" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ham sabka dosti attoot hai, cahe jitna bhi jhagra ho jaye,, wapas ek dusre ke pas aa hi jate hai : ) Yaad hai maine Python se tere sar pe mara tha ek bar XD , Aur Ek bar maine jab pucha tha what is Python tune kaha tha saap : ) Usi baat ka badla lia hai last round ka kathin puzzle me : )"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="match_parent"
+            android:layout_height="598dp"
+            app:srcCompat="@drawable/sidf" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Par cahe tu jitna bhi kand kar le , ek baat toh manna parega , ki tere jesa hardworking insan nai dekha bhai maine, tera dedication bhut strong hai, jab maine tuje apne papa ke dukan me help karte hue padhai karte dekha tha, muje andar se motivation aaya, bas ase hi mehnat karte reh aur apna foccus banaye rakh  bhut success milega life mai tuje likhke lele :D"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="match_parent"
+            android:layout_height="442dp"
+            app:srcCompat="@drawable/sidpicaa" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Likhte Likhte Jyada Likh dia :_D ... Once again HAPPY BIRTHDAY BHAI , Umid hai tujhe hamara ye chota sa gift pasand aaya hoga :D ...\n But This is not the ned... There is one more secret level hidden somewhere in the home screen, go and find it, press the button below to unlock it : )"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:onClick="unlockSecret"
+            android:text="Click To Unlock Secret Level" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,17 +41,17 @@
         android:text="@string/ins8_1"
         android:textColor="@color/white" />
 
-    <ImageView
-        android:id="@+id/imageView8_10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_dialog_alert" />
+        <ImageView
+            android:id="@+id/imageView8_10"
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            app:srcCompat="@drawable/anawisha" />
 
-    <ImageView
-        android:id="@+id/imageView8_12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_dialog_alert" />
+        <ImageView
+            android:id="@+id/imageView8_12"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            app:srcCompat="@drawable/anawishb" />
     <TextView
         android:id="@+id/textView8_3"
         android:layout_width="match_parent"

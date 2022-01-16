@@ -52,14 +52,14 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/ic_dialog_alert" />
+                android:layout_height="311dp"
+                app:srcCompat="@drawable/shainwisha" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/ic_dialog_alert" />
+                android:layout_height="387dp"
+                app:srcCompat="@drawable/shainwishb" />
 
             <TextView
                 android:id="@+id/tv2_2"

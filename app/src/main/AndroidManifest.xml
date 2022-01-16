@@ -10,10 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SOSShivankar">
         <activity
+            android:name=".MainActivity13"
+            android:exported="false"
+            android:label="$3(^37 L3V3L"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity12"
+            android:exported="false"
+            android:label="Level-10 M0746#41 ?"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity11"
             android:exported="false"
-            android:label="Level-9 K^1$#n4"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Level-9 P^3M(#4n9"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity10"
             android:exported="false"
@@ -27,7 +37,7 @@
         <activity
             android:name=".MainActivity8"
             android:exported="false"
-            android:label="Level-6 J0y"
+            android:label="Level-6 ;0y"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity7"

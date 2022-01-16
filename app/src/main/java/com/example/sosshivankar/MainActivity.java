@@ -125,6 +125,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void LlevelA(View view){
-        Toast.makeText(this, "ACCESS DENIED : PAGE STILL UNDER CONSTRUCTION", Toast.LENGTH_SHORT).show();
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("lvl10",false)){
+            Intent i = new Intent(this,MainActivity12.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Level-10 Locked", Toast.LENGTH_SHORT).show();
+        }
+    }
+    public void LlevelSecret(View view){
+        SharedPreferences sp = getSharedPreferences("vals",MODE_PRIVATE);
+        if(sp.getBoolean("secret",false)){
+            Intent i = new Intent(this,MainActivity13.class);
+            startActivity(i);
+        }
     }
 }
