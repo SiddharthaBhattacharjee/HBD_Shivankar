@@ -128,7 +128,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="Happy Birthday Shivankar, We Hope You enjoyed the game as much as we enjoyed putting it together for you :D Here is one more small gift for you... Enjoy a small Birthday Video and Watch Till the end : )"
+                android:text="Happy Birthday Shivankar, We Hope You enjoyed the game as much as we enjoyed putting it together for you :D Here is one more small gift for you... Enjoy a small Birthday Video and Watch Till the end : ) \n \n Tap To Play The Video Below \n VVV"
                 android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
